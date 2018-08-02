@@ -57,7 +57,7 @@ Then in your bash_profile, you'd add the line below, in order to read your prod 
 source $HOME/prod.env
 ```
 
-Don't forget to create a GitHub app that points to your deployed app (this one)
+Don't forget to create a GitHub app that points to your deployed app (this one), where the webhooks field points to `http://YOURDOMAIN/webhooks`
 
 ## logging
 
